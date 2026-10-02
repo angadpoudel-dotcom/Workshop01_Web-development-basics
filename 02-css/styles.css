@@ -1,7 +1,6 @@
 ```css
-/* =========================
-   General page styling
-   ========================= */
+/* General page styling */
+
 body {
     background-color: #f0f8ff;
     font-family: Arial, sans-serif;
@@ -11,43 +10,39 @@ body {
 }
 
 
-/* =========================
-   Navigation
-   ========================= */
+/* Navigation */
 
 nav {
     background-color: #1e3a5f;
     padding: 15px;
 }
 
-    nav ul {
-        list-style-type: none;
-        margin: 0;
-        padding: 0;
-        text-align: center;
-    }
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
 
-    nav li {
-        display: inline-block;
-        margin: 0 15px;
-    }
+nav li {
+    display: inline-block;
+    margin: 0 15px;
+}
 
-    nav a {
-        color: white;
-        text-decoration: none;
-        font-weight: bold;
-        padding: 10px;
-    }
+nav a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 10px;
+}
 
-        nav a:hover {
-            background-color: #2f6f8f;
-            border-radius: 5px;
-        }
+nav a:hover {
+    background-color: #2f6f8f;
+    border-radius: 5px;
+}
 
 
-/* =========================
-   Sections
-   ========================= */
+/* Sections */
 
 section {
     padding: 50px 20px;
@@ -56,9 +51,7 @@ section {
 }
 
 
-/* =========================
-   Headings
-   ========================= */
+/* Headings */
 
 h1 {
     color: #1e3a5f;
@@ -73,9 +66,7 @@ h2 {
 }
 
 
-/* =========================
-   Paragraphs
-   ========================= */
+/* Paragraphs */
 
 p {
     color: #333333;
@@ -85,9 +76,7 @@ p {
 }
 
 
-/* =========================
-   Images
-   ========================= */
+/* Images */
 
 img {
     display: block;
@@ -99,9 +88,7 @@ img {
 }
 
 
-/* =========================
-   Contact form
-   ========================= */
+/* Contact form */
 
 form {
     max-width: 600px;
@@ -140,14 +127,12 @@ button {
     font-size: 16px;
 }
 
-    button:hover {
-        background-color: #2f6f8f;
-    }
+button:hover {
+    background-color: #2f6f8f;
+}
 
 
-/* =========================
-   Footer
-   ========================= */
+/* Footer */
 
 footer {
     background-color: #1e3a5f;
@@ -156,14 +141,12 @@ footer {
     padding: 20px;
 }
 
-    footer p {
-        color: white;
-    }
+footer p {
+    color: white;
+}
 
 
-/* =========================
-   Responsive design
-   ========================= */
+/* Responsive design */
 
 @media (max-width: 768px) {
 
@@ -188,5 +171,4 @@ footer {
         width: 100%;
     }
 }
-
 ```
